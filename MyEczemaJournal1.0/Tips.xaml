@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyEczemaJournal1._0.Tips"
+             Title="">
+    <VerticalStackLayout>
+        <Label 
+            Text="Welcome to the Extra Eczema Tips and Information Page"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontAttributes="Bold"/>
+
+
+        <ImageButton Source="kkm.png" WidthRequest="150" HeightRequest="150" IsVisible="True" VerticalOptions="Center" HorizontalOptions="Center" Clicked="OnkkmClicked"/>
+        <Label 
+            Text="Information from Portal Rasmi Kementerian Kesihatan Malaysia"
+            Padding="10"
+            Margin="10"
+/>
+        <ImageButton Source="nih.png" WidthRequest="150" HeightRequest="150" IsVisible="True" VerticalOptions="Center" HorizontalOptions="Center" Clicked="OnnihClicked"/>
+        <Label 
+            Text="Information from National Institute of Allergy and Infectious Diseases"
+            Padding="10"
+            Margin="10"
+/>
+        <ImageButton Source="nhs.png" WidthRequest="150" HeightRequest="150" IsVisible="True" VerticalOptions="Center" HorizontalOptions="Center" Clicked="OnnhsClicked"/>
+        <Label 
+            Text="Information from National Health Service United Kingdom (NHS UK)"
+            Padding="10"
+            Margin="10"
+/>
+    </VerticalStackLayout>
+</ContentPage>

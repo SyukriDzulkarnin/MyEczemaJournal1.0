@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyEczemaJournal1._0.History"
+             Title=" ">
+    <VerticalStackLayout>
+        <Label 
+            Text="Welcome to the Eczema History Page"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <!-- Other content here -->
+            <Button Text="View Records" Clicked="OnViewRecords" HorizontalOptions="Center" Margin="20"/>
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>

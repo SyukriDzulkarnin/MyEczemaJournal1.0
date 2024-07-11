@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyEczemaJournal1._0.About"
+             Title="">
+    <VerticalStackLayout>
+        <Label 
+            Text="Welcome to the about Page"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontAttributes="Bold"/>
+
+        <Label 
+            Padding="20" Margin="20"
+            Text="MyEczema Journal aims to ease the process of logging daily eczema information by providing user with a quick journalling process that will take less than 5 minutes each day.
+            MyEczema Journal also store and display the daily journalling data up to the previous one month so that user can analyze their eczema pattern."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Label Padding="20" Margin="20" Text="MyEczema Journal Scale:"/>
+        <Label Margin="20" Padding="20" Text="0-4=Poor Skin Condition"/>
+        <Label Margin="20" Padding="20" Text="5-9=Good Skin Condition"/>
+        <Label Margin="20" Padding="20" Text="10-12=Excellent Skin Condition"/>
+        <Label
+            Padding="20" Margin="20"
+            Text="Developed by Muhammad Syukri Naim Bin Dzulkarnin"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+    </VerticalStackLayout>
+</ContentPage>

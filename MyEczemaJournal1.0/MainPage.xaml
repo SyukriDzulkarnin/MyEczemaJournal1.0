@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyEczemaJournal1._0.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label
+                Text="Hello,User!"
+                HorizontalOptions="Start"
+                FontSize="Large"/>
+            <Label
+                Text="Welcome to your dashboard"
+                HorizontalOptions="Start"
+                FontSize="Caption"/>
+            <Button x:Name="QuestionButton" Text="Daily Eczema Journalling Question" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HeightRequest="110" 
+                        WidthRequest="200" BackgroundColor="SkyBlue" TextColor="White" Clicked="OnQuestion"/>
+            
+            <Button x:Name="HistoryButton" Text="Eczema History" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HeightRequest="110" 
+                        WidthRequest="200" BackgroundColor="SkyBlue" TextColor="White" Clicked="OnHistory"/>
+
+            <Button x:Name="TipsButton" Text="Extra Eczema Tips" FontAttributes="Bold" VerticalOptions="CenterAndExpand" HeightRequest="110" 
+                        WidthRequest="200" BackgroundColor="SkyBlue" TextColor="White" Clicked="OnTips"/>
+
+            <Button x:Name="AboutButton" FontAttributes="Bold" Text="About" VerticalOptions="CenterAndExpand" HeightRequest="110" 
+                        WidthRequest="200" BackgroundColor="SkyBlue" TextColor="White" Clicked="OnAbout"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
